@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import axios from 'axios'
 import {toast} from 'react-toastify'
 
@@ -50,12 +50,12 @@ return (
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <Link class='text-decoration-none' to='/'>
                         <li class="nav-item">
-                            <a class="nav-link me-5 active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link me-5 active" aria-current="page" href="##">Home</a>
                         </li>
                         </Link>
                         <Link class='text-decoration-none' to='/about'>
                         <li class="nav-item">
-                            <a class="nav-link me-5"  href="#">About us</a>
+                            <a class="nav-link me-5"  href="##">About us</a>
                         </li>
                         </Link>
                         <Link class='text-decoration-none' to='/courses'>
@@ -67,7 +67,7 @@ return (
                         </Link>
                         <Link class='text-decoration-none' to='/contact'>
                         <li class="nav-item">
-                            <a class="nav-link me-5">Contact us</a>
+                            <a href='##' class="nav-link me-5">Contact us</a>
                         </li>
                         </Link>
                         <li class="nav-item">
