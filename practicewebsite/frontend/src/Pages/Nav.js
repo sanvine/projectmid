@@ -103,7 +103,7 @@ return (
                     </form>
                     </div>
                     <div class="modal-footer">
-                        <a class='me-auto text-secondary text-decoration-none' data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" href='#'>create new account</a>
+                        <a class='me-auto text-secondary text-decoration-none' data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" href='##'>create new account</a>
                     </div>
                 </div>
             </div>
