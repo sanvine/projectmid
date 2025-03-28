@@ -12,7 +12,7 @@ const Nav = () => {
 
     const handleSubmit=(e)=>{
         e.preventDefault()
-        axios.post('https://codetech-7gyg.onrender.com/applicationpath',{name,email,password,phone})
+        axios.post('https://projectmidbackend.onrender.com/applicationpath',{name,email,password,phone})
         .then((result)=>{
             console.log(result)
             toast.success("registered successfully")  
@@ -26,7 +26,7 @@ const Nav = () => {
     
     const handleSubmit1=(e)=>{
         e.preventDefault()
-        axios.post('https://codetech-7gyg.onrender.com/login',{email:email1,password:password1})
+        axios.post('https://projectmidbackend.onrender.com/login',{email:email1,password:password1})
         .then((result)=>{
             console.log(result)
             setValue(result.data)
